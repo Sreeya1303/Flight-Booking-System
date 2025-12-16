@@ -40,3 +40,9 @@ npm run dev
 The application will run at:
 http://localhost:5173
 
+Live Deployment
+https://flight-booking-system-lilac.vercel.app/
+
+Notes
+This project is deployed using GitHub Pages (frontend only).
+Backend services must be run locally for full functionality.
