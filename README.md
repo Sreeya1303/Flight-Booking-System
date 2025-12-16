@@ -1,50 +1,50 @@
 ✈️ Flight Booking System
 
-A Flight Booking System built using React (Vite) for the frontend and Node.js (Express) for the backend. The application allows users to book flights, manage wallet balance, and view booking history.
-
-Project Structure
-Flight-Booking-System/
-│── public/          # Static assets
-│── src/             # Frontend source code
-│── models/          # Backend models
-│── routes/          # Backend routes
-│── server.js        # Backend server
-│── package.json     # Dependencies
-│── index.html       # Main HTML file
-
-Technologies Used
-Frontend: React, Vite, Tailwind CSS
-Backend: Node.js, Express
-Version Control: Git & GitHub
-
-Setup & Run Instructions
-🔹 Prerequisites
-Make sure you have the following installed:
-Node.js (v16 or above)
-npm
-Git
+A full-stack Flight Booking System built using React (Vite) for the frontend, Node.js + Express for the backend, MongoDB for database, and Docker for containerized deployment.
 
 Features
-Flight booking
-Seat selection
-Wallet balance
+Search flights by source and destination
+Dynamic pricing logic
+Book flights with seat selection
+Generate unique PNR for each booking
 Booking history
-Responsive UI
+Wallet balance management
+PDF ticket generation
+Fully Dockerized (Frontend + Backend + Database)
 
-Steps to Run the Project
-git clone https://github.com/sreeya1303/Flight-Booking-System.git
-cd Flight-Booking-System
-npm install
-npm run dev
+Tech Stack
+Frontend
+React (Vite)
+Tailwind CSS
+Axios
+Backend
+Node.js
+Express.js
+MongoDB (Mongoose)
+UUID
+PDFKit
+Docker
+Docker Compose
 
-The application will run at:
-http://localhost:5173
-
-Live Deployment
-https://flight-booking-system-lilac.vercel.app/
-
-Notes
-This project is deployed using GitHub Pages (frontend only).
-Backend services must be run locally for full functionality.
+📁 Project Structure
+Flight Booking/
+│
+├── frontend/
+│   ├── src/
+│   ├── Dockerfile
+│   └── package.json
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── server.js
+│   ├── Dockerfile
+│   └── package.json
+│
+├── docker-compose.yml
+└── README.md
 
 This project is a full-stack Flight Booking System built using React (Vite) for the frontend and Node.js with Express for the backend. MongoDB is used as the database. The entire application is containerized using Docker and orchestrated with Docker Compose, enabling easy setup and consistent deployment across environments.
+
+
