@@ -1,16 +1,42 @@
-# React + Vite
+✈️ Flight Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Flight Booking System built using React (Vite) for the frontend and Node.js (Express) for the backend. The application allows users to book flights, manage wallet balance, and view booking history.
 
-Currently, two official plugins are available:
+Project Structure
+Flight-Booking-System/
+│── public/          # Static assets
+│── src/             # Frontend source code
+│── models/          # Backend models
+│── routes/          # Backend routes
+│── server.js        # Backend server
+│── package.json     # Dependencies
+│── index.html       # Main HTML file
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+Frontend: React, Vite, Tailwind CSS
+Backend: Node.js, Express
+Version Control: Git & GitHub
 
-## React Compiler
+Setup & Run Instructions
+🔹 Prerequisites
+Make sure you have the following installed:
+Node.js (v16 or above)
+npm
+Git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Features
+Flight booking
+Seat selection
+Wallet balance
+Booking history
+Responsive UI
 
-## Expanding the ESLint configuration
+Steps to Run the Project
+git clone https://github.com/sreeya1303/Flight-Booking-System.git
+cd Flight-Booking-System
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application will run at:
+http://localhost:5173
+
