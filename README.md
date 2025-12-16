@@ -46,3 +46,5 @@ https://flight-booking-system-lilac.vercel.app/
 Notes
 This project is deployed using GitHub Pages (frontend only).
 Backend services must be run locally for full functionality.
+
+This project is a full-stack Flight Booking System built using React (Vite) for the frontend and Node.js with Express for the backend. MongoDB is used as the database. The entire application is containerized using Docker and orchestrated with Docker Compose, enabling easy setup and consistent deployment across environments.
